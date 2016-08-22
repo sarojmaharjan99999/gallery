@@ -1,0 +1,22 @@
+.list-slides{
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.list-slides li{
+    float: left;
+    width: 300px;
+}
+
+.list-slides li img{
+    width: 100%;
+    height: auto;
+}
+
+.list-slides li:last-child{
+    margin: 0 -300px 0 0;
+}
+
