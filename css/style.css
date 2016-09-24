@@ -1,22 +1,14 @@
 .list-slides{
-    width: 300px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
+    width: 500px;
+    margin: 0 auto;
 }
 
-.list-slides li{
-    float: left;
-    width: 300px;
+.list-slides img{
+    width: 500px;
+    height: 300px;
 }
 
-.list-slides li img{
-    width: 100%;
-    height: auto;
+h2{
+    text-align: center;
+    text-transform: uppercase;
 }
-
-.list-slides li:last-child{
-    margin: 0 -300px 0 0;
-}
-
